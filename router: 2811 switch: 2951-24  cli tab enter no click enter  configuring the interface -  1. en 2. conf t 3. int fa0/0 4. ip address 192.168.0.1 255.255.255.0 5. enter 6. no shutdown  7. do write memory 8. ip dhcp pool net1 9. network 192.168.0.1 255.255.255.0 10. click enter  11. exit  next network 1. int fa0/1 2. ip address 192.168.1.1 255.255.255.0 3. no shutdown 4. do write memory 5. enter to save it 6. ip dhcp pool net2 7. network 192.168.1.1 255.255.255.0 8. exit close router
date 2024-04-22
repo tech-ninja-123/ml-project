@@ -1,0 +1,28 @@
+router: 2811
+switch: 2951-24
+
+cli tab
+enter no
+click enter 
+configuring the interface - 
+1. en
+2. conf t
+3. int fa0/0
+4. ip address 192.168.0.1 255.255.255.0
+5. enter
+6. no shutdown 
+7. do write memory
+8. ip dhcp pool net1
+9. network 192.168.0.1 255.255.255.0
+10. click enter 
+11. exit 
+next network
+1. int fa0/1
+2. ip address 192.168.1.1 255.255.255.0
+3. no shutdown
+4. do write memory
+5. enter to save it
+6. ip dhcp pool net2
+7. network 192.168.1.1 255.255.255.0
+8. exit
+close router
